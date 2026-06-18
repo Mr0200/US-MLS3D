@@ -74,9 +74,9 @@ In the benchmark experiments, the dataset is divided into training, validation a
 ```text
 | Split          | Sub-regions                              |
 | -------------- | ---------------------------------------- |
-| Training set   | QNS01, QNS02, QNS03, QNS07, QNS09, QNS10 |
-| Validation set | QNS04, QNS06                             |
-| Test set       | QNS05, QNS08                             |
+| Training set   | 1, 2, 3, 7, 9, 10 |
+| Validation set | 4, 6                             |
+| Test set       | 5, 8                             |
 ```
 Researchers may use the same split for fair comparison with the benchmark results reported in the paper.
 
