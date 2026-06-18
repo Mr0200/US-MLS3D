@@ -1,30 +1,30 @@
 # US-MLS3D
 # US-MLS3D
 
-SY-QNS-3D is a mobile laser scanning point cloud benchmark dataset for urban street scene semantic segmentation. The dataset was collected along Qingnian Street, a typical urban arterial road in Shenyang, China. It provides point-wise semantic annotations for real-world urban street scenes and is designed to support research on point cloud semantic segmentation, urban scene understanding, road boundary perception, and road asset extraction.
+US-MLS3D is a mobile laser scanning point cloud benchmark dataset for urban street scene semantic segmentation. The dataset was collected along a typical urban arterial road in  China. It provides point-wise semantic annotations for real-world urban street scenes and is designed to support research on point cloud semantic segmentation, urban scene understanding, road boundary perception, and road asset extraction.
 
 ## Dataset Overview
 
-SY-QNS-3D focuses on continuous urban street scenes in a northern Chinese city. The dataset covers approximately 2.7 km of Qingnian Street in Shenyang and contains 81,659,039 points in total. Each point includes three-dimensional coordinates and laser intensity information.
+US-MLS3D focuses on continuous urban street scenes in a northern Chinese city. The dataset covers approximately 2.7 km  and contains 81,659,039 points in total. Each point includes three-dimensional coordinates and laser intensity information.
 
 The dataset is divided into 10 sub-regions according to spatial continuity:
 
 ```text
-QNS01
-QNS02
-QNS03
-QNS04
-QNS05
-QNS06
-QNS07
-QNS08
-QNS09
-QNS10
+Block01
+Block02
+Block03
+Block04
+Block05
+Block06
+Block07
+Block08
+Block09
+Block10
 ```
 Each sub-region contains point cloud files organized by semantic class.
 
 ## Semantic Classes
-SY-QNS-3D contains 7 semantic classes. The label mapping is shown below:
+US-MLS3D contains 7 semantic classes. The label mapping is shown below:
 ```text
 | Class Name       | Label ID | Description                                                                                        |
 | ---------------- | -------: | -------------------------------------------------------------------------------------------------- |
@@ -39,8 +39,8 @@ SY-QNS-3D contains 7 semantic classes. The label mapping is shown below:
 ## Dataset Structure
 The dataset is organized by sub-region. Each sub-region folder contains seven class-specific text files:
 ```text
-SY-QNS-3D/
-├── QNS01/
+US-MLS3D/
+├── Block01/
 │   ├── build.txt
 │   ├── car.txt
 │   ├── curb.txt
@@ -48,7 +48,7 @@ SY-QNS-3D/
 │   ├── ground.txt
 │   ├── street_furniture.txt
 │   └── vegetation.txt
-├── QNS02/
+├── Block02/
 │   ├── build.txt
 │   ├── car.txt
 │   ├── curb.txt
@@ -57,7 +57,7 @@ SY-QNS-3D/
 │   ├── street_furniture.txt
 │   └── vegetation.txt
 ├── ...
-└── QNS10/
+└── Block10/
     ├── build.txt
     ├── car.txt
     ├── curb.txt
@@ -97,7 +97,7 @@ The dataset contains 81,659,039 points in total. The proportions of different se
 The dataset presents a typical long-tailed class distribution in real urban street scenes. Large-scale classes such as ground and vegetation account for a high proportion, while small-scale and elongated objects such as curbs, street facilities and fences have relatively fewer points.
 ## Download
 
-The SY-QNS-3D dataset will be publicly available for non-commercial academic research.
+The US-MLS3D dataset will be publicly available for non-commercial academic research.
 
 Download link: To be updated
 
