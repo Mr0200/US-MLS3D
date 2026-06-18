@@ -1,5 +1,5 @@
-# SY-QNS-3D
-# SY-QNS-3D
+# US-MLS3D
+# US-MLS3D
 
 SY-QNS-3D is a mobile laser scanning point cloud benchmark dataset for urban street scene semantic segmentation. The dataset was collected along Qingnian Street, a typical urban arterial road in Shenyang, China. It provides point-wise semantic annotations for real-world urban street scenes and is designed to support research on point cloud semantic segmentation, urban scene understanding, road boundary perception, and road asset extraction.
 
