@@ -99,9 +99,9 @@ The dataset presents a typical long-tailed class distribution in real urban stre
 
 The US-MLS3D dataset will be publicly available for non-commercial academic research.
 
-Download link: To be updated
+Download link:https://pan.baidu.com/s/1gEFLObC_NM6rkLOfPES9_A
 
-Extraction code: To be updated
+Extraction code: please contact the authors 2024282140133@whu.edu.cn
 
 If the download link is unavailable, please contact the authors.
 
